@@ -40,12 +40,7 @@ checking_balance = st.selectbox('Checking Balance', categorical_unique_values['c
 credit_history = st.selectbox('Credit History', categorical_unique_values['credit_history'])
 purpose = st.selectbox('Purpose', categorical_unique_values['purpose'])
 savings_balance = st.selectbox('Savings Balance', categorical_unique_values['savings_balance'])
-
-# ✅ Use original string values for employment_duration
-employment_duration = st.selectbox(
-    'Employment Duration',
-    categorical_unique_values['employment_duration']
-)
+employment_duration = st.selectbox('Employment Duration', categorical_unique_values['employment_duration'])
 
 other_credit = st.selectbox('Other Credit', categorical_unique_values['other_credit'])
 housing = st.selectbox('Housing', categorical_unique_values['housing'])
